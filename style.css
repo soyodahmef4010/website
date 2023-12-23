@@ -1,0 +1,334 @@
+*{
+margin:0;
+padding: 0;
+font-family: century Georgia, ;
+}
+
+.iium-kict{
+width: 100%;
+height:150px;
+
+html{
+  scroll-behavior: smooth;
+}
+
+}
+
+header{
+    background-image: url(image/back.jpg);
+    height: 750px;
+    background-size: cover;
+    background-position:center ;
+    
+    }
+    
+    
+
+
+    
+    .nav{
+    background-color:rgb(105, 199, 105);
+    height:100px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    
+    }
+    .logo{
+      color:rgb(231, 87, 87) ;
+     font-size: 30px;
+    }
+    .logo span{
+    color: rgb(46, 40, 208);
+    
+    }
+    
+    
+    
+    .nav ul {
+      padding:2px;
+      list-style: none;
+      
+    }
+    
+    .nav ul li {
+      display: inline-block;
+      position: relative;
+    }
+    
+    .nav ul li a {
+      display: flex;
+      padding: 20px 50px;
+      text-decoration: none;
+      color:white;
+      font-size: 30px;
+      
+    }
+    
+    .nav ul li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      right:0;
+      background: #091006;
+      
+    }
+    
+    .nav ul li:hover ul {
+      display: block;
+      color: blue;
+    }
+    
+    .nav ul li ul li {
+      display: block;
+    }
+    .nav ul li a:hover{
+    
+      color: blue;
+      text-decoration: underline;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .home-menu{
+      margin: 2px;
+      padding: 0px;
+    background-color:rgb(226, 212, 61));
+    width: 100%;
+    height:150px;
+    }
+    
+    h1,h2{
+    color: rgb(245, 239, 241);
+    text-align: center;
+    font-size:110px;
+    font-style: italic;
+    }
+    .home-logo{
+     text-align: center; 
+    font-size:150px ;
+    color: #ed3a3a;
+    font-style: oblique;
+    text-decoration: rgb(85, 152, 211);
+    } 
+    
+    
+    .home-logo-1{
+        color:rgb(236, 153, 21) ;
+       font-size: 50px;
+       text-align: center;
+      }
+      .home-logo-1 span{
+      color: rgb(234, 34, 140);
+      
+      }
+      
+    
+    
+    .div-clear{
+      clear: both;
+    }
+
+
+
+    .info-about{
+      background-color:rgb(173, 244, 50) ;
+      height:1000px;
+      
+      }
+      h4{
+        text-align: center;
+        font-style: inherit;
+        font-size: 100px;
+      color:#212F3D;
+      }
+      .info-image{
+      text-align: center;
+      width: 20%;
+      height: 40%;
+      position: absolute;
+      left: 570px;
+      
+      }
+      .paragraph-about-1{
+      font-size: 40px;
+      position: absolute;
+      top:1300px;
+      }
+      
+      
+      
+      
+      
+      
+      
+      .vedio-add{
+      background-color: rgb(74, 74, 196);
+      width: 100%;
+      padding:15px;
+      margin: 10px;
+      }
+      
+      .mahbubah-vedio{
+      text-align: center;
+      
+      font-style: unset;
+      color:yellowgreen;
+      }
+      
+      
+      
+      
+      
+      
+      .vedio-add-2{
+        background-color: rgb(201, 221, 66);
+        width: 100%;
+        padding:15px;
+        margin: 10px;
+        }
+        
+        .sumaiyah{
+        text-align: center;
+        font-size: 40px;
+        font-style: unset;
+        color:yellowgreen;
+        }
+      h6{
+      color: #ee1943;
+      text-align: center;
+      font-size: 40px;
+      }
+      
+        
+      
+      
+      
+      
+      .vedio-add-3{
+        background-color: rgb(42, 228, 110);
+        width: 100%;
+        padding:15px;
+        margin: 10px;
+        }
+        
+        .Namirah{
+        text-align: center;
+        font-size: 40px;
+        font-style: unset;
+        color:yellowgreen;
+        }
+      h6{
+      color: #e0d5d6;
+      text-align: center;
+      font-size: 40px;
+      }
+      
+        
+      
+      
+      
+      
+      
+      
+      .vedio-add-4{
+        background-color: rgb(126, 42, 228);
+        width: 100%;
+        padding:15px;
+        margin: 10px;
+        }
+        
+        .all-vedio{
+        text-align: center;
+        font-size: 40px;
+        font-style: unset;
+        color:rgb(234, 35, 98);
+        }
+      h6{
+      color: #f6475c;
+      text-align: center;
+      font-size: 40px;
+      }
+      
+      
+      
+      
+      
+      .info-contactus{
+      background-color: aqua;
+      width: 100%;
+      margin: 5px;
+      padding: 7px;
+      }
+      .heading-contact{
+      border: 10px;
+      text-align: center;
+      
+      
+      }
+      .form{
+      text-align: center;
+      box-sizing: calc(100px,200px);
+      padding: 10px;
+      
+      }
+      
+      .e-ten{ 
+        height: 50px;
+        width: 340px;
+        border:2px solid red;
+        font-size: 25px;
+        padding: 2px;
+        margin: 10px;
+        }
+      
+      *text-area{
+      .background-color: #ed3a3a;
+      color: aqua;
+      margin: 5px;
+      }
+      
+      
+      .submit-value{
+      
+      height:50px;
+      width: 80px;
+      color: #e6d9d9;
+      background-color: rgb(235, 42, 42);
+      padding: 20px;
+      margin: 20px;
+      }
+      .clear-value{
+       
+      height:50px;
+      width: 80px;
+      color: #e6cece;
+      background-color: rgb(235, 42, 42);
+      padding: 20px;
+      margin: 20px;
+      
+      }
+        
+      
+      
+      
+      
+      
+      .last-content{
+      background-color: #222616;
+      width: 100%;
+      height: 100px;
+      color: rgb(232, 231, 237);
+      text-align: center;
+      }
+      .content-fa{
+      color: white;
+      
+      padding:0;
+      margin: 15px;
+      }
